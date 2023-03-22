@@ -1,0 +1,34 @@
+<html>
+  <body>
+    <form action = "/login" method = "POST">
+      <p>nome:</p>
+      <p><input type = "text" name = "nm" /></p>
+      <p>cognome:</p>
+      <p><input type = "text" name = "cm" /></p>
+      <p>data di nascita:</p><br>
+      <input type="date" name = "compleanno"><br><br>
+      <select name="nazione">
+        <option value="italia">italia</option>
+        <option value="america">america</option>
+        <option value="inghilterra">inghilterra</option>
+      </select>
+      <p>username:</p>
+      <p><input type = "text" name = "usnm" /></p>
+      <p>password:</p>
+      <p><input type = "password" name = "pas" /></p>
+      <p>conferma:</p>
+      <p><input type = "password" name = "conpas" /></p>
+      <p>email:</p>
+      <p><input type = "email" name = "mail" /></p>
+      <input type="checkbox" name="lingua" value="italiano" checked="yes">
+      <label for="italiano"> italiano</label><br>
+      <input type="checkbox" name="lingua" value="inglese">
+      <label for="inglese"> inglese</label><br>
+      <input type="checkbox" name="lingua" value="francese">
+      <label for="francese"> francese</label><br>
+      <input type="checkbox" name="accetto" value="si">
+      <label for="accetto"> acconsento all'invio di pubblicità </label><br>
+      <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>
